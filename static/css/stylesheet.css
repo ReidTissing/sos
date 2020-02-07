@@ -1,0 +1,101 @@
+
+
+
+@font-face {
+    font-family: 'gnutypewriterstandard';
+    src: url('gtw-webfont.woff2') format('woff2'),
+         url('gtw-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.container-fluid {
+    /* The image used */
+    background-image: url("tree2.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    font-size: larger;
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media (min-width: 320px) {
+    .container-fluid {
+      color: #303d40;
+      background-image: url("tree2small.jpg");
+      text-shadow: 0 0 3px #ffffff;
+    }
+}
+@media (min-width: 400px) {
+  .container-fluid {
+    color: #303d40;
+    background-image: url("tree2small.jpg");
+    text-shadow: 0 0 3px #ffffff;
+  }
+}
+
+@media (min-width: 500px) {
+  .container-fluid {
+    color: #303d40;
+    background-image: url("tree2small.jpg");
+    text-shadow: 0 0 3px #ffffff;
+  }
+}
+
+@media (min-width: 800px) {
+    .container-fluid {
+        background-image: url("tree2.jpg");
+        color: #000000;
+        text-decoration: none;
+    }
+}
+h1 {
+font-family: 'gnutypewriterstandard', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+}
+h3 {
+  font-family: 'gnutypewriterstandard', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+  font-size: 2em;
+}
+p {
+font-family: 'Vollkorn', serif;
+font-weight: bolder;
+font-style: normal;
+}
+
+.color-primary-0 { color: #D1D1D1 }	/* Main Primary color */
+.color-primary-1 { color: #091219 }
+.color-primary-2 { color: #99A0A5 }
+.color-primary-3 { color: #45515A }
+.color-primary-4 { color: #28343E }
+
+
+
+/* As RGBa codes */
+
+.rgba-primary-0 { color: rgba(209,209,209,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(  9, 18, 25,1) }
+.rgba-primary-2 { color: rgba(153,160,165,1) }
+.rgba-primary-3 { color: rgba( 69, 81, 90,1) }
+.rgba-primary-4 { color: rgba( 40, 52, 62,1) }
